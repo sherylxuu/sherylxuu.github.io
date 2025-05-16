@@ -39,8 +39,8 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 - *2022.08 - 2024.05*, Research Assistant @ Washington University in St.Louis
 - *2023.07 - 2024.02*, Media and Design Specialist @ [Mirror Vision](https://www.xiaohongshu.com/user/profile/618c809a0000000010007543?xsec_token=ABxKXDhWta2WL-KYlJl4wuk_cKIQ8A4mRhKOYDj7-dkRA=&xsec_source=pc_note)
 - *2023.06 - 2023.08*, Content and Sales Intern @ [ShopShops](https://www.shopshopslive.com)
-- *2021.05 - 2021.05*, Account Executive Intern @ BlueFocus
-- *2020.05 - 2020.05*, Marketing Intern @ WE Marketing Group
+- *2021.05 - 2021.07*, Account Executive Intern @ BlueFocus
+- *2020.05 - 2020.07*, Marketing Intern @ WE Marketing Group
 
 <br><br>
 
