@@ -26,7 +26,7 @@ My focuses at IMC are Consumer Insight & Analytics and Branding, and I hope to w
 <br><br>
 
 ## 📪 Contact Me
-Email: sherylxu0930@gmail.com
+Email: sherylxu0930@gmail.com  
 LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
@@ -68,8 +68,9 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Predicted restaurant operational status to support delivery service rollouts.
 - Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
 - Modeled popularity drivers including reviews, ratings, and operational status.
-- Informed segmentation and targeting for marketing pilots using lift analysis.
-[R Code](github.com/sherylxuu/sherylxuu.github.io/projects/Machine Learning/Yelp R Code.R)
+- Informed segmentation and targeting for marketing pilots using lift analysis. <br>
+  
+[R Code](https://github.com/sherylxuu/sherylxuu.github.io/blob/main/projects/Machine%20Learning/Yelp%20R%20Code.R)
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
