@@ -69,6 +69,7 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
 - Modeled popularity drivers including reviews, ratings, and operational status.
 - Informed segmentation and targeting for marketing pilots using lift analysis.
+
 <br>
 [R Code](projects/Machine Learning/Yelp R Code.R)[Slides]
 
