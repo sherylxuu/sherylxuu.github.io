@@ -71,7 +71,8 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Informed segmentation and targeting for marketing pilots using lift analysis.
 
 <br>
-[R Code](projects/Machine Learning/Yelp R Code.R)[Slides](projects/Machine Learning/Yelp Homework Project.pdf)
+[R Code](projects/Machine Learning/Yelp R Code.R)  
+[Slides](projects/Machine Learning/Yelp Homework Project.pdf)
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="90%"></div></div>
