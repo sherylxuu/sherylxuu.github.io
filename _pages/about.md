@@ -71,8 +71,20 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Informed segmentation and targeting for marketing pilots using lift analysis.
 
 <br>
-[R Code](projects/Machine Learning/Yelp R Code.R)[Slides]
+[R Code](projects/Machine Learning/Yelp R Code.R)[Slides](projects/Machine Learning/Yelp Homework Project.pdf)
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+### May 2024, Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
+This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement. Starting with foundational regression analysis, I examined how elite reviewers (influencers) affect reputation, then expanded to evaluate location and health factors impacting popularity. Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. The project culminates in cost-sensitive classification, AUC-based model comparison, and strategic targeting through gains table analysis.
+##### Key Methods and Tools: 
+Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection (AIC, BIC, LRT), ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation (Train-Test Split, K-Fold), Data Visualization & Gains Table Analysis, R Programming Language
+##### Business Applications: 
+- Predicted restaurant operational status to support delivery service rollouts.
+- Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
+- Modeled popularity drivers including reviews, ratings, and operational status.
+- Informed segmentation and targeting for marketing pilots using lift analysis.
 
 
 
