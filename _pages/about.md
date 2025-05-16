@@ -19,7 +19,7 @@ redirect_from:
 
 
 ## 👋 About Me
-Hi, I'm Sheryl Xu.
+Hi, I'm Sheryl Xu.  
 I'm currently doing my **Master's in Integrated Marketing Communications (IMC) at Northwestern Univeristy** and I have a **Bachelor's at Washington University in St. Louis for Film and Media Studies**. 
 My focuses at IMC are Consumer Insight & Analytics and Branding, and I hope to work in Business/Data Analytics and/or Marketing.
 
@@ -60,7 +60,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 <br><br>
 
 ## 📝 Projects 
-### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
+### May 2024, Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
 This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement. Starting with foundational regression analysis, I examined how elite reviewers (influencers) affect reputation, then expanded to evaluate location and health factors impacting popularity. Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. The project culminates in cost-sensitive classification, AUC-based model comparison, and strategic targeting through gains table analysis.
 ##### Key Methods and Tools: 
 Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection (AIC, BIC, LRT), ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation (Train-Test Split, K-Fold), Data Visualization & Gains Table Analysis, R Programming Language
@@ -69,8 +69,7 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
 - Modeled popularity drivers including reviews, ratings, and operational status.
 - Informed segmentation and targeting for marketing pilots using lift analysis.
-<br>
-[R Code](projects/Machine Learning/Yelp R Code.R)
+  [R Code](projects/Machine Learning/Yelp R Code.R)
 
 
 
