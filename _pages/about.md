@@ -26,7 +26,7 @@ My focuses at IMC are Consumer Insight & Analytics and Branding, and I hope to w
 <br><br>
 
 ## 📪 Contact Me
-Email: sherylxu0930@gmail.com <br><br>
+Email: sherylxu0930@gmail.com
 LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
