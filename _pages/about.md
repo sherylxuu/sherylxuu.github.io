@@ -84,7 +84,12 @@ This project applies machine learning and statistical modeling to Yelp restauran
 
 [**Project R Code**](projects/Machine Learning/Yelp R Code.R)
 [**Project Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **Key Methods and Tools**: Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection (AIC, BIC, LRT), ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation (Train-Test Split, K-Fold), Data Visualization & Gains Table Analysis, R Programming Language
+- **Business Applications**:
+- - Predicted restaurant operational status to support delivery service rollouts.
+- - Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
+- - Modeled popularity drivers including reviews, ratings, and operational status.
+- - Informed segmentation and targeting for marketing pilots using lift analysis.
 </div>
 </div>
 
@@ -107,19 +112,3 @@ This project applies machine learning and statistical modeling to Yelp restauran
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
