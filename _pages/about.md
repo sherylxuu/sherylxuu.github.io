@@ -25,7 +25,7 @@ redirect_from:
 
 ### 📪 Contact Me
 ##### Email: sherylxu0930@gmail.com
-##### LinkedIn: https://linkedin.com/in/sheryl-xu
+##### LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
 
