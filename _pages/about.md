@@ -18,18 +18,18 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-### 👋 About Me
+## 👋 About Me
 ##### Hi, I'm Sheryl Xu. I'm a graduate student at Northwestern University studying Integrated Marketing Communications (IMC) and have a Bachelor's at Washington University in St. Louis for Film and Media Studies. I am currently taking the Consumer Insight & Analytics and Branding tracks at IMC, and hope to work in Business/Data Analytics and/or Marketing.
 
 <br><br>
 
-### 📪 Contact Me
+## 📪 Contact Me
 ##### Email: sherylxu0930@gmail.com
 ##### LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
 
-### 💼 Professional Experiences
+## 💼 Professional Experiences
 ##### - *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://www.linkedin.com/company/wejober/)
 ##### - *2025.03 - PRESENT*, Marketing Intern @ [KOOK](https://gotkook.com)
 ##### - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
@@ -41,7 +41,7 @@ redirect_from:
 
 <br><br>
 
-### 🔧 Technical Skills
+## 🔧 Technical Skills
 
 |  | Category | Tool(s) |
 |----------|----------|----------|
@@ -56,7 +56,7 @@ redirect_from:
 
 <br><br>
 
-### 📝 Projects 
+## 📝 Projects 
 #### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
 This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement. Starting with foundational regression analysis, I examined how elite reviewers (influencers) affect reputation, then expanded to evaluate location and health factors impacting popularity. Building on these insights, I developed predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service. The project culminates in cost-sensitive classification, AUC-based model comparison, and strategic targeting through gains table analysis.
 ##### Key Methods and Tools: 
