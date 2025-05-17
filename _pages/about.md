@@ -83,7 +83,6 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 [**R Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Linear Probability Model, Logistic and Probit Regression, Interval Regression
-- **Business Implications**: Advertisers should prioritize PC web placements to maximize completion rates and viewing durations, and deploy age-targeted creative for younger segments to elevate engagement.
 
 </div>
 </div>
