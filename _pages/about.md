@@ -70,32 +70,6 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 - Modeled popularity drivers including reviews, ratings, and operational status.
 - Informed segmentation and targeting for marketing pilots using lift analysis.
 
-<br>
-[R Code](projects/Machine Learning/Yelp R Code.R)  
-[Slides](projects/Machine Learning/Yelp Homework Project.pdf)
-
-<br>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="90%">
-</div>
-<div class='paper-box-text' markdown="1"> 
-
-### May 2024, Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
-
-This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
-
-[**Project R Code**](projects/Machine Learning/Yelp R Code.R)
-<br>
-[**Project Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
-
-<br>
-
-### Business Applications:
-- Predicted restaurant operational status to support delivery service rollouts.
-- Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
-- Modeled popularity drivers including reviews, ratings, and operational status.
-- Informed segmentation and targeting for marketing pilots using lift analysis.
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
