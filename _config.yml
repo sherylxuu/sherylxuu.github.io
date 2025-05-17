@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Sheryl Xu"
+title                    : "Qinyi Sheryl Xu"
 description              : "Marketing and Data Analyst "
 repository               : "sherylxuu/sherylxuu.github.io"
 google_scholar_stats_use_cdn : true
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Sheryl Xu"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/profile.jpg"
   bio              : "MS Integrated Marketing Communications @ Northwestern University"
   location         : "Chicago, Illinois"
   employer         :
