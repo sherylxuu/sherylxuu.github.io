@@ -77,7 +77,7 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 <br>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="90%">
 </div>
-<div class='paper-box-text' markdown="1"> </div>
+<div class='paper-box-text' markdown="1"> 
 
 ### May 2024, Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
 
