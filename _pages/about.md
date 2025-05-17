@@ -41,6 +41,7 @@ At Northwestern IMC, I focus on **Consumer Insight & Analytics and Branding**, a
 ## Career Interests
 - Business Intelligence & Analytics
 - Marketing & Data Analytics
+- Marketing Technology
 - Product & Project Management
 - Digital & Product Marketing
 
