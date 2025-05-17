@@ -87,15 +87,14 @@ This project applies machine learning and statistical modeling to Yelp restauran
 <br>
 [**Project Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
-</div></div>
 
-## Business Applications:
+<br>
+
+### Business Applications:
 - Predicted restaurant operational status to support delivery service rollouts.
 - Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
 - Modeled popularity drivers including reviews, ratings, and operational status.
 - Informed segmentation and targeting for marketing pilots using lift analysis.
-</div>
-</div>
 
 
 
@@ -113,8 +112,8 @@ This project applies machine learning and statistical modeling to Yelp restauran
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+
+<br>
 
 ### Business Applications:
 - Predicted restaurant operational status to support delivery service rollouts.
