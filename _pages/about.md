@@ -74,7 +74,7 @@ This project applies machine learning and statistical modeling to Yelp restauran
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/MMs/462 HW1.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-roll Ad Project</div><img src='projects/MMs/462 HW1.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
