@@ -114,7 +114,7 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 ## Data Visualization: Grocery Customer Transaction Trends
 This project visualizes online grocery transactions to **uncover customer purchasing patterns across devices, order size, product categories, and seasons**. Key findings reveal web-driven revenue dominated by Apple users, prevalence of low-value high-frequency purchases, dominance of fresh items, and synchronized seasonal peaks. These insights guide marketing, pricing, retention, and merchandising strategies.
 
-[**R Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group 1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**R Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Data Wrangling, Feature Engineering, Visualization 
 
