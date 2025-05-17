@@ -72,7 +72,7 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data \
