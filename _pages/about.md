@@ -68,7 +68,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 |  | Category | Tool(s) |
 |----------|----------|----------|
-| 1 | Languages |  <img width="76" alt="Screenshot 2024-08-06 at 2 52 09 PM" src="https://github.com/user-attachments/assets/d24a382e-b3c9-4976-8b46-2d6d37e5718d"> ![SQL](https://img.shields.io/badge/sql-%23276DC3.svg?style=for-the-badge&logo=sql&logoColor=white)|
+| 1 | Languages |  <img width="76" alt="Screenshot 2024-08-06 at 2 52 09 PM" src="https://github.com/user-attachments/assets/d24a382e-b3c9-4976-8b46-2d6d37e5718d">|
 | 2 | Statistical Analysis | ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) 
 | 3 | Data Visualization | ![Tableau](https://img.shields.io/badge/tableau-0066cc?style=for-the-badge&logo=tableau&logoColor=black) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Gephi](https://img.shields.io/badge/gephi-000000?style=for-the-badge&logo=gephi&logoColor=white) |
 | 4 | Website Development | ![Wix](https://img.shields.io/badge/wix-000?style=for-the-badge&logo=wix&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Microsoft SharePoint ](https://img.shields.io/badge/Microsoft_SharePoint-0078D4?style=for-the-badge&logo=microsoft-sharepoint&logoColor=white)|
