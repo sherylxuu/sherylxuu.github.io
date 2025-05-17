@@ -72,16 +72,16 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data \\
+### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data \
 This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
 
-[**Project R Code**](projects/Machine Learning/Yelp R Code.R) [**Project Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**R Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
-- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
+
 </div>
 </div>
 
