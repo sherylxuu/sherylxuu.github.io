@@ -98,26 +98,16 @@ This project applies machine learning and statistical modeling to Yelp restauran
 
 
 
-
-
-
-
-<br><br><br><br><br>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data \\
+This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[**Project R Code**](projects/Machine Learning/Yelp R Code.R) [**Project Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-<br>
-
-### Business Applications:
-- Predicted restaurant operational status to support delivery service rollouts.
-- Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
-- Modeled popularity drivers including reviews, ratings, and operational status.
-- Informed segmentation and targeting for marketing pilots using lift analysis.
+- **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
+- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
+</div>
+</div>
 
