@@ -18,20 +18,20 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-## 👋 About Me
+# 👋 About Me
 Hi, I'm Sheryl Xu.  
 I'm currently doing my **Master's in Integrated Marketing Communications (IMC) at Northwestern Univeristy** and I have a **Bachelor's at Washington University in St. Louis for Film and Media Studies**. 
 My focuses at IMC are Consumer Insight & Analytics and Branding, and I hope to work in Business/Data Analytics and/or Marketing.
 
 <br><br>
 
-## 📪 Contact Me
+# 📪 Contact Me
 Email: sherylxu0930@gmail.com  
 LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
 
-## 💼 Internships
+# 💼 Internships
 - *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://www.linkedin.com/company/wejober/)
 - *2025.02 - PRESENT*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
 - *2025.03 - PRESENT*, Marketing Intern @ [KOOK](https://gotkook.com)
@@ -44,7 +44,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
 
-## 🔧 Technical Skills
+# 🔧 Technical Skills
 
 |  | Category | Tool(s) |
 |----------|----------|----------|
@@ -59,13 +59,13 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 <br><br>
 
-## 📝 Projects 
+# 📝 Projects 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data 
+## Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data 
 This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
 
 [**R Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
