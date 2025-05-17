@@ -74,10 +74,10 @@ Logistic Regression (Binary, Multinomial, Ordinal), Linear and Polynomial Regres
 [R Code](projects/Machine Learning/Yelp R Code.R)  
 [Slides](projects/Machine Learning/Yelp Homework Project.pdf)
 
-<br><br>
+<br>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="90%">
-</div></div>
-<div class='paper-box-text' markdown="1">
+</div>
+<div class='paper-box-text' markdown="1"> </div>
 
 ### May 2024, Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data
 
