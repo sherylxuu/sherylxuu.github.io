@@ -116,3 +116,9 @@ This project applies machine learning and statistical modeling to Yelp restauran
 </div>
 </div>
 
+### Business Applications:
+- Predicted restaurant operational status to support delivery service rollouts.
+- Assessed elite reviewer (influencer) impact on reputation and pricing strategies.
+- Modeled popularity drivers including reviews, ratings, and operational status.
+- Informed segmentation and targeting for marketing pilots using lift analysis.
+
