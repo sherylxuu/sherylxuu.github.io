@@ -61,7 +61,6 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 # 📝 Projects 
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -71,6 +70,20 @@ This project applies machine learning and statistical modeling to Yelp restauran
 [**R Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/MMs/462 HW1.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
+This project analyzed 10k user records from a South Korean portal to **assess how device type and demographics affect pre-roll skippable ad engagement overall**. Linear probability, logistic, probit, and interval regression models revealed that PC web usage and older viewers significantly boost ad completion and viewing time. 
+
+[**R Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Linear Probability Model, Logistic and Probit Regression, Interval Regression
+- **Business Implications**: Advertisers should prioritize PC web placements to maximize completion rates and viewing durations, and deploy age-targeted creative for younger segments to elevate engagement.
 
 </div>
 </div>
