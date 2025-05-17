@@ -70,7 +70,6 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 <br><br>
 
 # 📝 Projects 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -93,6 +92,19 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 [**R Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Linear Probability Model, Logistic and Probit Regression, Interval Regression
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-roll Ad Project</div><img src='projects/Viz/461.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Data Visualization: Grocery Customer Transaction Trends
+This project visualizes online grocery transactions to **uncover customer purchasing patterns across devices, order size, product categories, and seasons**. Key findings reveal web-driven revenue dominated by Apple users, prevalence of low-value high-frequency purchases, dominance of fresh items, and synchronized seasonal peaks. These insights guide marketing, pricing, retention, and merchandising strategies.
+
+[**R Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group 1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Data Wrangling, Feature Engineering, Visualization 
 
 </div>
 </div>
