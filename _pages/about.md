@@ -119,3 +119,16 @@ This project visualizes online grocery transactions to **uncover customer purcha
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reader Clustering</div><img src='projects/DS/DS.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Clustering Analysis: Clustering Reader Device Usage to Predict Subscriber Churn
+This project applies k-means clustering to five device-usage variables for 10k news subscribers, yielding six distinct reader segments. It profiles churn rates and session counts per cluster, then fits a logistic regression with log-transformed sessions and tenure to predict next-month churn, guiding targeted interventions and actionable insights for effective management strategies.
+
+[**R Code**](projects/DS/460 Final Case-copy.R) [**Slides**](projects/DS/460 Final Case.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Data Preprocessing, Clustering(k-means), Profiling, Predictive Modeling 
+
+</div>
+</div>
+
