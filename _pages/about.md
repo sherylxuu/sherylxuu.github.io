@@ -70,7 +70,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 <br><br>
 
 # 📝 Projects 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Project</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Optimization</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data 
@@ -83,7 +83,7 @@ This project applies machine learning and statistical modeling to Yelp restauran
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-roll Ad Project</div><img src='projects/MMs/462 HW1.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-roll Ad Engagement</div><img src='projects/MMs/462 HW1.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
@@ -96,7 +96,7 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-roll Ad Project</div><img src='projects/Viz/461.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Grocery Customer Trends</div><img src='projects/Viz/461.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Data Visualization: Grocery Customer Transaction Trends
