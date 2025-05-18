@@ -52,7 +52,6 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 <br><br>
 
 # 💼 Internships
-- *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://www.linkedin.com/company/wejober/)
 - *2025.02 - PRESENT*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
 - *2025.03 - PRESENT*, Marketing Intern @ [KOOK](https://gotkook.com)
 - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
