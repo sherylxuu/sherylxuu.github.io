@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Sheryl Xu"
-description              : "Marketing and Data Analyst"
+description              : "Marketing and Data Analyst sherylxu0930@gmail.com"
 repository               : "sherylxuu/sherylxuu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : sherylxu0930@gmail.com
+  email            : "sherylxu0930@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
