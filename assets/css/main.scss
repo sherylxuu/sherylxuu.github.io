@@ -25,15 +25,15 @@
 @import "notices";
 @import "masthead";
 @import "navigation";
-nav ul {
-  display: flex;       /* lay them out in a row */
-  list-style: none;    /* drop bullets */
-  padding: 0;
+#site-navigation ul.nav {
+  display: flex !important;    /* force a row layout */
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-  margin: 0 1.5rem;    /* space out each link */
+#site-navigation ul.nav > li {
+  margin: 0 1.5rem !important; /* space out each link */
 }
 @import "footer";
 @import "syntax";
