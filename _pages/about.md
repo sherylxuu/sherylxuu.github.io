@@ -31,7 +31,7 @@ redirect_from:
 # 👋 About Me
 Hi, I'm Sheryl Xu, a Master of Science candidate in Integrated Marketing Communications at Northwestern University, specializing in digital marketing and data analytics. I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Strategy**, and my hands-on experience has taught me how to turn raw data into actionable insights—optimizing digital campaigns and driving measurable performance improvements. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is backed by data.
+At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Management & Strategy**, and my hands-on experience has taught me how to turn raw data into actionable insights—optimizing digital campaigns and driving measurable performance improvements. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is backed by data.
 
 ## Education
 - M.S. in Integrated Marketing Communications, Northwestern University, Dec 2025 (Expected)
