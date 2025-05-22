@@ -45,11 +45,7 @@ At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Managem
 
 <br><br>
 
-# 📪 Contact Me
-Email: sherylxu0930@gmail.com  
-LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
-<br><br>
 
 # 💼 Internships
 - *2025.02 - PRESENT*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
