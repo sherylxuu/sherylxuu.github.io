@@ -92,7 +92,7 @@ This project applies machine learning and statistical modeling to Yelp restauran
 <div class='paper-box-text' markdown="1">
 
 ## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
-This project analyzed 10k user records from a South Korean portal to **assess how device type and demographics affect pre-roll skippable ad engagement overall**. Linear probability, logistic, probit, and interval regression models revealed that PC web usage and older viewers significantly boost ad completion and viewing time. 
+I led statistical modeling on a dataset of 10,000 user sessions from a South Korean portal to quantify how device type and demographics influence pre-roll ad engagement. I implemented and compared linear probability, logistic, probit, and interval regression models, revealing that **PC web usage significantly increases ad completion rates and that older viewers watch ads longer**. Insights prompted shifting spend to desktop and tailoring creatives for older viewers, boosting completion and engagement.
 
 [**Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
@@ -105,7 +105,7 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 <div class='paper-box-text' markdown="1">
 
 ## Data Visualization: Grocery Customer Transaction Trends
-This project visualizes online grocery transactions to **uncover customer purchasing patterns across devices, order size, product categories, and seasons**. Key findings reveal web-driven revenue dominated by Apple users, prevalence of low-value high-frequency purchases, dominance of fresh items, and synchronized seasonal peaks. These insights guide marketing, pricing, retention, and merchandising strategies.
+This project visualizes online grocery transactions to uncover customer purchasing patterns across devices, order size, product categories, and seasons. I used R libraries—showtext, scales, and lubridate—to uncover that **Apple web users drove revenue, low-value frequent orders prevailed, fresh items dominated spend, and seasonality peaked**, guiding targeted marketing, dynamic pricing, retention, and merchandising strategies.
 
 [**Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
@@ -117,8 +117,8 @@ This project visualizes online grocery transactions to **uncover customer purcha
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reader Clustering</div><img src='projects/DS/DS.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## Clustering Analysis: Clustering Reader Device Usage to Predict Subscriber Churn
-This project applies k-means clustering to five device-usage variables for 10k news subscribers, yielding six distinct reader segments. It **profiles churn rates and session counts per cluster**, then fits a logistic regression with log-transformed sessions and tenure to **predict next-month churn**, guiding targeted interventions and actionable insights for effective management strategies.
+## Clustering Analysis: Predicting Subscriber Churn from Device Usage
+This project applies k-means clustering to five device-usage metrics for 10,000 news subscribers, identifying six distinct reader segments. A logistic regression model—incorporating log-transformed session counts and tenure—was then developed to predict next-month churn. **High-risk segments (desktop-heavy, low-tenure users) were pinpointed**, and personalized re-engagement campaigns and subscription offers were crafted, creating a data-driven roadmap to reduce churn and boost subscriber lifetime value.
 
 [**Code**](projects/DS/460 Final Case-copy.R) [**Slides**](projects/DS/460 Final Case.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
