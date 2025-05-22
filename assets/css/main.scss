@@ -25,18 +25,19 @@
 @import "notices";
 @import "masthead";
 @import "navigation";
-nav#site-navigation .site-nav__list.inline-list {
-  display: flex !important;     /* lay links out in a row */
-  list-style: none !important;  /* remove bullets */
+/* ——— Custom header nav spacing for Minimal Mistakes ——— */
+nav#site-navigation .site-nav__list {
+  display: flex !important;         /* row layout */
+  list-style: none !important;      /* drop bullets */
   margin: 0 !important;
   padding: 0 !important;
-  justify-content: flex-start;  /* or space-between / space-around */
+  justify-content: flex-start;      /* or space-between / space-around */
 }
 
-/* target each list item */
 nav#site-navigation .site-nav__item {
-  margin: 0 2.5rem !important;  /* adjust horizontal spacing */
+  margin: 0 2rem !important;        /* tweak spacing here */
 }
+
 @import "footer";
 @import "syntax";
 
