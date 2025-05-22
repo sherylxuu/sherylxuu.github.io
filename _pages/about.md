@@ -53,7 +53,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 
 # 💼 Internships
 - *2025.02 - PRESENT*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
-- *2025.03 - PRESENT*, Marketing Intern @ [KOOK](https://gotkook.com)
+- *2025.03 - PRESENT*, Marketing Intern @ [KOOK]([https://gotkook.com](https://www.instagram.com/got.kook?igsh=Z2JzZHV5ZWtxZGkw))
 - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
 - *2022.08 - 2024.05*, Research Assistant @ Washington University in St.Louis
 - *2023.07 - 2024.02*, Media and Design Specialist @ [Mirror Vision](https://www.xiaohongshu.com/user/profile/618c809a0000000010007543?xsec_token=ABxKXDhWta2WL-KYlJl4wuk_cKIQ8A4mRhKOYDj7-dkRA=&xsec_source=pc_note)
