@@ -118,7 +118,7 @@ This project visualizes online grocery transactions to uncover customer purchasi
 <div class='paper-box-text' markdown="1">
 
 ## Clustering Analysis: Predicting Subscriber Churn from Device Usage
-This project applies k-means clustering to five device-usage metrics for 10,000 news subscribers, identifying six distinct reader segments. A logistic regression model—incorporating log-transformed session counts and tenure—was then developed to predict next-month churn. **High-risk segments (desktop-heavy, low-tenure users) were pinpointed**, and personalized re-engagement campaigns and subscription offers were crafted, creating a data-driven roadmap to reduce churn and boost subscriber lifetime value.
+This project applies k-means clustering to five device-usage metrics for 10,000 news subscribers, identifying six distinct reader segments. A logistic regression model was then developed to predict next-month churn. **High-risk segments (desktop-heavy, low-tenure users) were pinpointed**, and personalized re-engagement campaigns and subscription offers were crafted.
 
 [**Code**](projects/DS/460 Final Case-copy.R) [**Slides**](projects/DS/460 Final Case.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
