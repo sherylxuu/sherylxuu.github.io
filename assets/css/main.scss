@@ -9,17 +9,7 @@
  *  - https://twitter.com/mmistakes
  *
 */
-@import "minima"
-    nav ul {
-  display: flex;       /* lay them out in a row */
-  list-style: none;    /* drop bullets */
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 1.5rem;    /* space out each link */
-}
+@import "minima";
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -35,6 +25,16 @@ nav ul li {
 @import "notices";
 @import "masthead";
 @import "navigation";
+    nav ul {
+  display: flex;       /* lay them out in a row */
+  list-style: none;    /* drop bullets */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;    /* space out each link */
+}
 @import "footer";
 @import "syntax";
 
