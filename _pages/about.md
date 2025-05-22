@@ -92,7 +92,7 @@ This project applies machine learning and statistical modeling to Yelp restauran
 <div class='paper-box-text' markdown="1">
 
 ## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
-I led statistical modeling on a dataset of 10,000 user sessions from a South Korean portal to quantify how device type and demographics influence pre-roll ad engagement. I implemented and compared linear probability, logistic, probit, and interval regression models, revealing that **PC web usage significantly increases ad completion rates and that older viewers watch ads longer**. Insights prompted shifting spend to desktop and tailoring creatives for older viewers, boosting completion and engagement.
+This project applies statistical modeling on a dataset of 10,000 user sessions from a South Korean portal to quantify how device type and demographics influence pre-roll ad engagement. I implemented and compared linear probability, logistic, probit, and interval regression models, revealing that **PC web usage significantly increases ad completion rates and that older viewers watch ads longer**. 
 
 [**Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
