@@ -85,7 +85,7 @@ LinkedIn: [https://linkedin.com/in/sheryl-xu](https://linkedin.com/in/sheryl-xu)
 ## Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data 
 This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
 
-[**R Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Logistic Regression, Linear and Polynomial Regression, Interaction Terms & Model Diagnostics, Model Selection, ROC, AUC, and Threshold Optimization, Bootstrapping & Cross-Validation
 
@@ -98,7 +98,7 @@ This project applies machine learning and statistical modeling to Yelp restauran
 ## Marketing Models: Influence of Device and Demographics on Pre-Roll Ad Engagement
 This project analyzed 10k user records from a South Korean portal to **assess how device type and demographics affect pre-roll skippable ad engagement overall**. Linear probability, logistic, probit, and interval regression models revealed that PC web usage and older viewers significantly boost ad completion and viewing time. 
 
-[**R Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Code**](projects/MMs/462 HW1.R) [**Slides**](projects/MMs/Marketing Models Project 1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Linear Probability Model, Logistic and Probit Regression, Interval Regression
 
@@ -111,7 +111,7 @@ This project analyzed 10k user records from a South Korean portal to **assess ho
 ## Data Visualization: Grocery Customer Transaction Trends
 This project visualizes online grocery transactions to **uncover customer purchasing patterns across devices, order size, product categories, and seasons**. Key findings reveal web-driven revenue dominated by Apple users, prevalence of low-value high-frequency purchases, dominance of fresh items, and synchronized seasonal peaks. These insights guide marketing, pricing, retention, and merchandising strategies.
 
-[**R Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Code**](projects/Viz/Assignment 7.R) [**Slides**](projects/Viz/461 Group1 Final Presentation.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Data Wrangling, Feature Engineering, Visualization 
 
@@ -124,7 +124,7 @@ This project visualizes online grocery transactions to **uncover customer purcha
 ## Clustering Analysis: Clustering Reader Device Usage to Predict Subscriber Churn
 This project applies k-means clustering to five device-usage variables for 10k news subscribers, yielding six distinct reader segments. It **profiles churn rates and session counts per cluster**, then fits a logistic regression with log-transformed sessions and tenure to **predict next-month churn**, guiding targeted interventions and actionable insights for effective management strategies.
 
-[**R Code**](projects/DS/460 Final Case-copy.R) [**Slides**](projects/DS/460 Final Case.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Code**](projects/DS/460 Final Case-copy.R) [**Slides**](projects/DS/460 Final Case.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Data Preprocessing, Clustering(k-means), Profiling, Predictive Modeling 
 
