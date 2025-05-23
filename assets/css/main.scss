@@ -9,7 +9,6 @@
  *  - https://twitter.com/mmistakes
  *
 */
-@import "minima";
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -25,19 +24,6 @@
 @import "notices";
 @import "masthead";
 @import "navigation";
-/* ——— Custom header nav spacing for Minimal Mistakes ——— */
-nav#site-navigation .site-nav__list {
-  display: flex !important;         /* row layout */
-  list-style: none !important;      /* drop bullets */
-  margin: 0 !important;
-  padding: 0 !important;
-  justify-content: flex-start;      /* or space-between / space-around */
-}
-
-nav#site-navigation .site-nav__item {
-  margin: 0 2rem !important;        /* tweak spacing here */
-}
-
 @import "footer";
 @import "syntax";
 
