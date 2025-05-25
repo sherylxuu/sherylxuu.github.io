@@ -48,6 +48,7 @@ At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Managem
 
 
 # 💼 Internships
+- *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://en.50bm.com/)
 - *2025.02 - 2025.05*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
 - *2025.02 - 2025.05*, Marketing Intern @ [KOOK](https://www.instagram.com/got.kook?igsh=Z2JzZHV5ZWtxZGkw)
 - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
