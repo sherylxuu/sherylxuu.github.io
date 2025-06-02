@@ -29,9 +29,10 @@ redirect_from:
 
 
 # 👋 About Me
-Hi, I'm Sheryl Xu, a Master of Science candidate in Integrated Marketing Communications at Northwestern University, specializing in digital marketing and data analytics. I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
+Hi, I'm Sheryl Xu, a Master of Science candidate in Integrated Marketing Communications at Northwestern University, and I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Management & Strategy**, and my hands-on experience has taught me how to turn raw data into actionable insights—optimizing digital campaigns and driving measurable performance improvements. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is backed by data.
+At Northwestern’s IMC program, I specialize in **marketing analytics, data science, and consumer insights**. My hands-on experience has taught me to transform raw data into actionable insights—optimizing digital campaigns, driving measurable performance gains, predicting sales and churn, and identifying future product growth opportunities. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is grounded in data.
+
 
 ## Education
 - M.S. in Integrated Marketing Communications, Northwestern University, Dec 2025 (Expected)
@@ -49,8 +50,8 @@ At Northwestern IMC, I focus on **Consumer Insight & Analytics and Brand Managem
 
 # 💼 Internships
 - *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://en.50bm.com/)
+- *2025.02 - PRESENT*, Marketing Intern @ [KOOK](https://www.instagram.com/got.kook?igsh=Z2JzZHV5ZWtxZGkw)
 - *2025.02 - 2025.05*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
-- *2025.02 - 2025.05*, Marketing Intern @ [KOOK](https://www.instagram.com/got.kook?igsh=Z2JzZHV5ZWtxZGkw)
 - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
 - *2023.07 - 2024.02*, Media and Design Specialist @ [Mirror Vision](https://www.xiaohongshu.com/user/profile/618c809a0000000010007543?xsec_token=ABxKXDhWta2WL-KYlJl4wuk_cKIQ8A4mRhKOYDj7-dkRA=&xsec_source=pc_note)
