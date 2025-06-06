@@ -85,7 +85,7 @@ At Northwestern’s IMC program, I specialize in **marketing analytics, data sci
 ## Machine Learning: Predicting Tiktok Video Engagement & Virality 
 This project builds machine learning and statistical models on TikTok influencer data—combining follower count, verification status, video quality, detected emotions, caption sentiment, and demographics—to predict reach and engagement. Results shows that **prioritizing verified, high-follower creators, enhancing visuals, and amplifying underrepresented creators can boost content performance** and foster a more inclusive platform strategy.
 
-Code Unavailable due to Data Privacy [**Slides**](projects/Machine Learning/Tiktok.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+Code Unavailable due to Data Privacy [**Slides**](projects/Machine Learning/Tiktok Prediction.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Multiple Linear Regression, Stepwise Variable Selection with Cross-Validation, Lasso Regression, Principal Component Analysis (PCA), Train/Test Split
 
