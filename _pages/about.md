@@ -49,8 +49,9 @@ At Northwestern’s IMC program, I specialize in **marketing analytics, data sci
 
 
 # 💼 Internships
-- *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://en.50bm.com/)
+- *2025.06 - PRESENT*, Marketing Consultant @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
 - *2025.02 - PRESENT*, Marketing Intern @ [KOOK](https://www.instagram.com/got.kook?igsh=Z2JzZHV5ZWtxZGkw)
+- *2025.01 - PRESENT*, Marketing Intern @ [WeJob HR Solutions](https://en.50bm.com/)
 - *2025.02 - 2025.05*, Graduate Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
 - *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
@@ -77,12 +78,25 @@ At Northwestern’s IMC program, I specialize in **marketing analytics, data sci
 
 <br><br>
 
-# 📝 Projects 
+# 📝 Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Virality Prediction</div><img src='projects/Machine Learning/Tiktok.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Machine Learning: Predicting Tiktok Video Engagement & Virality 
+This project builds machine learning and statistical models on TikTok influencer data—combining follower count, verification status, video quality, detected emotions, caption sentiment, and demographics—to predict reach and engagement. Results shows that **prioritizing verified, high-follower creators, enhancing visuals, and amplifying underrepresented creators can boost content performance** and foster a more inclusive platform strategy.
+
+Code Unavailable due to Data Privacy [**Slides**](projects/Machine Learning/Tiktok.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Multiple Linear Regression, Stepwise Variable Selection with Cross-Validation, Lasso Regression, Principal Component Analysis (PCA), Train/Test Split
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Yelp Optimization</div><img src='projects/Machine Learning/Yelp Screenshot.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Machine Learning: Predictive Modeling & Marketing Insights from Yelp Data 
-This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement.  Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
+This project applies machine learning and statistical modeling to Yelp restaurant data to uncover actionable insights for marketing strategy, business operations, and consumer engagement. Building on these insights, I developed **predictive models to determine the likelihood of a restaurant being operational—an essential component for optimizing Yelp’s delivery service**. 
 
 [**Code**](projects/Machine Learning/Yelp R Code.R) [**Slides**](projects/Machine Learning/Yelp Homework Project.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
