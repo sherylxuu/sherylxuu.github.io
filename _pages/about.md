@@ -116,6 +116,19 @@ This project applies statistical modeling on a dataset of 10,000 user sessions f
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Campaign Sentiment</div><img src='projects/DS/social.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Social Network Analysis: Nike ‘So Win’ Campaign
+This project mapped 1,095 YouTube comments on Nike’s Super Bowl “So Win” ad into interaction and sentiment networks, then used community detection, centrality analysis, and word co-occurrence to reveal **how the conversation spread, where it clustered, and which themes—like “empower” and “obstacle”—drove engagement.**
+
+[**Code**](projects/DS/Final Project.gephi) [**Slides**](projects/DS/Social Networks.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Data Collection(Communalytic), Network Construction(Gephi), Network Metrics, Semantic Analysis
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Grocery Customer Trends</div><img src='projects/Viz/461.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
