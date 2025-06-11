@@ -116,6 +116,19 @@ This project applies statistical modeling on a dataset of 10,000 user sessions f
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Anipang Adoption & Kakao Engagement</div><img src='projects/MMs/kakao.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Marketing Models: The Impact of Anipang Adoption on Kakao Game Usage
+This project applies propensity-score matching and panel difference-in-differences on weekly panel data of 849 Android users to quantify how adopting the hit game Anipang influences both time spent and number of other Kakao games played. I ran dummy-variable OLS and within-estimator fixed-effects regressions across ten matched samples, finding that **Anipang adoption significantly boosts the number of Kakao games users engage with—but has no effect on total play time or spillovers to non-Kakao games.**
+
+[**Code**](projects/MMs/kakao.R) [**Slides**](projects/MMs/kakao.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Propensity Score Matching(PSM), Dummy-variable Regression, One-way Fixed-Effects Panel Regression
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Campaign Sentiment</div><img src='projects/DS/social.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
