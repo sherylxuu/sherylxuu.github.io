@@ -23,6 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Sheryl Xu"
   avatar           : "images/formal.JPG"
+  url              : https://sherylxuu.github.io
   bio              : "MS Integrated Marketing Communications @ Northwestern University"
   location         : "Chicago, Illinois"
   employer         :
