@@ -22,7 +22,6 @@ redirect_from:
 
 {% include_relative include/aboutme.md %}
 
-
 {% include_relative include/technicalskills.md %}
 
 {% include_relative include/projects.md %}
