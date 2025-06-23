@@ -22,11 +22,12 @@ redirect_from:
 
 {% include_relative include/aboutme.md %}
 
-{% include_relative include/internships.md %}
 
 {% include_relative include/technicalskills.md %}
 
 {% include_relative include/projects.md %}
+
+{% include_relative include/internships.md %}
 
 
 <div id="clustr_globe_container" style="width: 300px; height: 300px;">
