@@ -18,12 +18,20 @@ redirect_from:
   gtag('config', 'G-LWLCZ64BKG');
 </script>
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 <span class='anchor' id='about-me'></span>
+
 
 # 👋 About Me
 Hi, I'm Sheryl Xu, a Master of Science candidate in **Integrated Marketing Communications at Northwestern University**, and I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-At Northwestern’s IMC program, I specialize in <span style="color:#red"><strong> **marketing analytics, data science, and consumer insights**. </strong></span>  My hands-on experience has taught me to transform raw data into actionable insights—optimizing digital campaigns, driving measurable performance gains, predicting sales and churn, and identifying future product growth opportunities. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is grounded in data.
+At Northwestern’s IMC program, I specialize in <span style="color:blue"><strong> **marketing analytics, data science, and consumer insights**. </strong></span>  My hands-on experience has taught me to transform raw data into actionable insights—optimizing digital campaigns, driving measurable performance gains, predicting sales and churn, and identifying future product growth opportunities. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is grounded in data.
 
 
 ## Education
@@ -35,6 +43,20 @@ At Northwestern’s IMC program, I specialize in <span style="color:#red"><stron
 - Business Intelligence & Data Analytics
 - Marketing Analytics & Technology
 - Digital & Product Marketing
+
+<br><br>
+
+
+
+# 💼 Internships
+- *2025.06 - PRESENT*, Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
+- *2025.02 - 2025.05*, Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
+- *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
+- *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
+- *2023.07 - 2024.02*, Media and Design Specialist @ [Mirror Vision](https://www.xiaohongshu.com/user/profile/618c809a0000000010007543?xsec_token=ABxKXDhWta2WL-KYlJl4wuk_cKIQ8A4mRhKOYDj7-dkRA=&xsec_source=pc_note)
+- *2023.06 - 2023.08*, Content and Sales Intern @ [ShopShops](https://www.shopshopslive.com)
+- *2021.05 - 2021.07*, Account Executive Intern @ [BlueFocus](https://en.bluefocus.com/)
+- *2020.05 - 2020.07*, Marketing Intern @ [WE Marketing Group](https://www.we-mkt.com/)
 
 <br><br>
 
@@ -50,6 +72,7 @@ At Northwestern’s IMC program, I specialize in <span style="color:#red"><stron
 | 6 | IDEs | ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)| 
 | 7 | CRM & Automation | ![HubSpot](https://img.shields.io/badge/HubSpot-FF5809?style=for-the-badge&logo=hubspot&logoColor=white) |
 | 8 | Intelligence & Analytics | ![Google Analytics](https://img.shields.io/badge/google%20analytics-f59f14?style=for-the-badge&logo=google%20analytics&logoColor=white) ![Microsoft Clarity](https://img.shields.io/badge/microsoft%20clarity-0078d7?style=for-the-badge&logo=microsoft%20clarity&logoColor=blue) ![Qualtrics](https://img.shields.io/badge/qualtrics-04C9CE?style=for-the-badge&logo=qualtrics&logoColor=white) ![Brandwatch](https://img.shields.io/badge/brandwatch-bcdb30?style=for-the-badge&logo=brandwatch&logoColor=white) ![Communalytic](https://img.shields.io/badge/Communalytic-ffd9ec?style=for-the-badge&logo=Communalytic&logoColor=black) ![Brand24](https://img.shields.io/badge/brand24-42D45F?style=for-the-badge&logo=brand24&logoColor=white) ![Vivvix](https://img.shields.io/badge/vivvix-000000?style=for-the-badge&logo=vivvix&logoColor=white) |
+
 
 <br><br>
 
@@ -144,15 +167,3 @@ This project applies k-means clustering to five device-usage metrics for 10,000 
 
 </div>
 </div>
-
-<br><br>
-
-# 💼 Internships
-- *2025.06 - PRESENT*, Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
-- *2025.02 - 2025.05*, Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
-- *2024.10 - 2025.04*, Marketing Specialist @ [Northwestern Kellogg School Greater China Business Conference](https://www.gcbckellogg.com/)
-- *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
-- *2023.07 - 2024.02*, Media and Design Specialist @ [Mirror Vision](https://www.xiaohongshu.com/user/profile/618c809a0000000010007543?xsec_token=ABxKXDhWta2WL-KYlJl4wuk_cKIQ8A4mRhKOYDj7-dkRA=&xsec_source=pc_note)
-- *2023.06 - 2023.08*, Content and Sales Intern @ [ShopShops](https://www.shopshopslive.com)
-- *2021.05 - 2021.07*, Account Executive Intern @ [BlueFocus](https://en.bluefocus.com/)
-- *2020.05 - 2020.07*, Marketing Intern @ [WE Marketing Group](https://www.we-mkt.com/)
