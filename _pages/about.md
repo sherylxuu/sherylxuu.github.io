@@ -145,6 +145,8 @@ This project applies k-means clustering to five device-usage metrics for 10,000 
 </div>
 </div>
 
+<br><br>
+
 # 💼 Internships
 - *2025.06 - PRESENT*, Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
 - *2025.02 - 2025.05*, Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
