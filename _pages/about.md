@@ -51,6 +51,8 @@ At Northwestern’s IMC program, I specialize in <span style="color:#4E2A84"><st
 | 7 | CRM & Automation | ![HubSpot](https://img.shields.io/badge/HubSpot-FF5809?style=for-the-badge&logo=hubspot&logoColor=white) |
 | 8 | Intelligence & Analytics | ![Google Analytics](https://img.shields.io/badge/google%20analytics-f59f14?style=for-the-badge&logo=google%20analytics&logoColor=white) ![Microsoft Clarity](https://img.shields.io/badge/microsoft%20clarity-0078d7?style=for-the-badge&logo=microsoft%20clarity&logoColor=blue) ![Qualtrics](https://img.shields.io/badge/qualtrics-04C9CE?style=for-the-badge&logo=qualtrics&logoColor=white) ![Brandwatch](https://img.shields.io/badge/brandwatch-bcdb30?style=for-the-badge&logo=brandwatch&logoColor=white) ![Communalytic](https://img.shields.io/badge/Communalytic-ffd9ec?style=for-the-badge&logo=Communalytic&logoColor=black) ![Brand24](https://img.shields.io/badge/brand24-42D45F?style=for-the-badge&logo=brand24&logoColor=white) ![Vivvix](https://img.shields.io/badge/vivvix-000000?style=for-the-badge&logo=vivvix&logoColor=white) |
 
+<br><br>
+
 # 📝 Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Virality Prediction</div><img src='projects/Machine Learning/Tiktok.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
