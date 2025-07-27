@@ -49,7 +49,7 @@ I'm a **Data Analytics and Insights** professional with over 1 year of hands-on 
 
 
 # 💼 Internships
-- *2025.06 - PRESENT*, Graduate Intern | Marketing Analyst  @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
+- *2025.06 - PRESENT*, Graduate Marketing Analyst  @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
 - *2025.02 - 2025.05*, Marketing Analyst @ [Creative Capitol](https://creativecapitol.org/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
 - *2023.06 - 2023.08*, Marketing Insights & Analyst Intern  @ [ShopShops](https://www.shopshopslive.com)
