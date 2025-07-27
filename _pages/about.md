@@ -73,8 +73,19 @@ At Northwestern’s IMC program, I specialize in **Marketing Analytics, Data Sci
 
 
 <br><br>
-
 # 📝 Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Marketing Mix Modeling</div><img src='projects/MMM/MMM.png' alt="My Picture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## Marketing Mix Modeling: Optimizing Media Budget with Meta Robyn 
+This project applies **time-series Marketing Mix Modeling (MMM)** using Meta’s Robyn package to quantify the contribution of paid media channels and optimize budget allocation. Using an educational dataset developed by Professor Elea Feit at Drexel Univeristy, the project reveals that direct and email impressions drive the highest ROI, while social media underperforms relative to spend. The analysis provides actionable insights for reallocating marketing budgets to maximize efficiency.
+
+[**Code**](projects/MMM/MMM1.Rmd) [**Slides**](projects/MMM/MMM1.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+
+- **Key Methods and Tools**: Marketing Mix Modeling, Meta Robyn, Bayesian Optimization, Geometric Adstock, Saturation Curves, Time-Series Aggregation, ROI Analysis
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Video Virality Prediction</div><img src='projects/Machine Learning/Tiktok.png' alt="My Picture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
