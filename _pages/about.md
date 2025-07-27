@@ -31,7 +31,7 @@ redirect_from:
 # 👋 About Me
 Hi, I'm Sheryl Xu, a Master of Science candidate in **Integrated Marketing Communications at Northwestern University**,and I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-At Northwestern’s IMC program, I specialize in **Marketing Analytics, Data Science, and Consumer Insights**. My hands-on experience has taught me to transform raw data into actionable insights—optimizing digital campaigns, driving measurable performance gains, predicting sales and churn, and identifying future product growth opportunities. I thrive on leveraging analytics to understand audience behavior and refine marketing strategies, ensuring every decision is grounded in data.
+I'm a **Data Analytics and Insights** professional with over 1 year of hands-on experience in SQL, Python, R, Tableau, and Excel for large-scale data analysis. Skilled in marketing mix modeling, segmentation, predictive forecasting, and A/B testing. Proven ability in translating data into strategic insights—identifying key audience segments, analyzing sales performance, and optimizing content and media strategies. Passionate about transforming complex data into actionable recommendations that drive brand growth and scalable decision-making.
 
 
 ## Education
@@ -41,7 +41,7 @@ At Northwestern’s IMC program, I specialize in **Marketing Analytics, Data Sci
 
 ## Career Interests
 - Business Intelligence & Data Analytics
-- Marketing Analytics & Technology
+- Marketing Analytics, Marketing Mix Modeling, and MarTech
 - Digital & Product Marketing
 
 <br><br>
@@ -62,7 +62,7 @@ At Northwestern’s IMC program, I specialize in **Marketing Analytics, Data Sci
 
 |  | Category | Tool(s) |
 |----------|----------|----------|
-| 1 | Languages |  <img width="76" alt="Screenshot 2024-08-06 at 2 52 09 PM" src="https://github.com/user-attachments/assets/d24a382e-b3c9-4976-8b46-2d6d37e5718d"> ![Python](https://img.shields.io/badge/python-%23276DC3.svg?style=for-the-badge&logo=python&logoColor=white) ![Mardown](https://img.shields.io/badge/markdown-%23276DC3.svg?style=for-the-badge&logo=markdown&logoColor=white)|
+| 1 | Languages |  <img width="76" alt="Screenshot 2024-08-06 at 2 52 09 PM" src="https://github.com/user-attachments/assets/d24a382e-b3c9-4976-8b46-2d6d37e5718d"> ![Python](https://img.shields.io/badge/python-%23276DC3.svg?style=for-the-badge&logo=python&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23276DC3.svg?style=for-the-badge&logo=markdown&logoColor=white)|
 | 2 | Statistical Analysis | ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) 
 | 3 | Data Visualization | ![Tableau](https://img.shields.io/badge/tableau-0066cc?style=for-the-badge&logo=tableau&logoColor=black) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Gephi](https://img.shields.io/badge/gephi-000000?style=for-the-badge&logo=gephi&logoColor=white) |
 | 4 | Website Development | ![Wix](https://img.shields.io/badge/wix-000?style=for-the-badge&logo=wix&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Microsoft SharePoint ](https://img.shields.io/badge/Microsoft_SharePoint-0078D4?style=for-the-badge&logo=microsoft-sharepoint&logoColor=white)|
