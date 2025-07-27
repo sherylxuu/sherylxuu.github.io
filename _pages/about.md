@@ -49,10 +49,10 @@ At Northwestern’s IMC program, I specialize in **Marketing Analytics, Data Sci
 
 
 # 💼 Internships
-- *2025.06 - PRESENT*, Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
+- *2025.06 - PRESENT*, Graduate Intern | Marketing Analyst  @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
 - *2025.02 - 2025.05*, Marketing Analyst @ [Creative Capitol](https://creativecapitol.org/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
-- *2023.06 - 2023.08*, Insights and Analytics Intern @ [ShopShops](https://www.shopshopslive.com)
+- *2023.06 - 2023.08*, Marketing Insights & Analyst Intern  @ [ShopShops](https://www.shopshopslive.com)
 - *2021.05 - 2021.07*, Strategy and Analytics Intern @ [BlueFocus](https://en.bluefocus.com/)
 - *2020.05 - 2020.07*, Marketing Intern @ [WE Marketing Group](https://www.we-mkt.com/)
 
