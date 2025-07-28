@@ -31,7 +31,7 @@ redirect_from:
 # 👋 About Me
 Hi, I'm Sheryl Xu, a Master of Science candidate in **Integrated Marketing Communications at Northwestern University**,and I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-I'm a **Data Analytics and Insights** professional with over 1 year of hands-on experience in SQL, Python, R, Tableau, and Excel for large-scale data analysis. Skilled in marketing mix modeling, segmentation, predictive forecasting, and A/B testing. Proven ability in translating data into strategic insights—identifying key audience segments, analyzing sales performance, and optimizing content and media strategies. Passionate about transforming complex data into actionable recommendations that drive brand growth and scalable decision-making.
+I'm a **Data Analytics and Insights** professional with 1+ year of hands-on experience in SQL, Python, R, Tableau, and Excel for large-scale data analysis. Skilled in marketing mix modeling, segmentation, predictive forecasting, and A/B testing. Proven ability in translating data into strategic insights—identifying key audience segments, analyzing sales performance, and optimizing content and media strategies. Passionate about transforming complex data into actionable recommendations that drive brand growth and scalable decision-making.
 
 
 ## Education
