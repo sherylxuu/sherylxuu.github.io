@@ -80,7 +80,7 @@ I'm a **Data Analytics and Marketing Science** professional with 1+ year of hand
 ## MMM: Optimizing Media Budget with Meta Robyn 
 This project applies **time-series Marketing Mix Modeling (MMM)** using Meta’s Robyn package to quantify the contribution of paid media channels and optimize budget allocation. Using an educational dataset developed by Professor Elea Feit at Drexel Univeristy, the project reveals that direct and email impressions drive the highest ROI, while social media underperforms relative to spend. The analysis provides actionable insights for reallocating marketing budgets to maximize efficiency.
 
-[**Code**](projects/MMM/MMM1.Rmd) [**Slides**](projects/MMM/MMM2.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+[**Code**](projects/MMM/MMM2.Rmd) [**Slides**](projects/MMM/MMM2.pdf) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
 - **Key Methods and Tools**: Marketing Mix Modeling, Meta Robyn, Bayesian Optimization, Geometric Adstock, Saturation Curves, Time-Series Aggregation, ROI Analysis
 </div>
