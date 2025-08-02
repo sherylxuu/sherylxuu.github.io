@@ -1,0 +1,409 @@
+---
+title: "Marketing Mix Modeling with Meta Robyn"
+author: "Sheryl Xu, Master of Science @ Northwestern University"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    latex_engine: xelatex
+  html_document: default
+---
+
+```{r environment_setup, include=FALSE}
+library(reticulate)
+if (!virtualenv_exists("r-reticulate")) {
+  virtualenv_create("r-reticulate")
+}
+use_virtualenv("r-reticulate", required = TRUE)
+Sys.setenv(RETICULATE_PYTHON = "~/.virtualenvs/r-reticulate/bin/python")
+py_config()
+py_install(packages = c("numpy", "nevergrad"), pip = TRUE)
+```
+
+```{r robyn_setup, include=FALSE}
+rm(list = ls())
+gc()
+Sys.setenv(GITHUB_PAT = "")
+```
+
+## Part I: Introduction
+**Meta Robyn**
+Meta’s Robyn is an open-source, automated Marketing Mix Modeling (MMM) tool that helps marketers quantify the effectiveness of various media channels and make data-driven budget allocation decisions. It combines advanced statistical modeling with Bayesian optimization to evaluate channel contributions, model saturation and adstock effects, and generate multiple candidate models along a Pareto frontier.
+
+Robyn is particularly valuable because it brings transparency, scalability, and automation to a traditionally manual and resource-intensive process—enabling more agile marketing strategies in a privacy-centric world where granular user-level tracking becomes increasingly limited.
+
+This project presents a time-series Marketing Mix Modeling (MMM) analysis using Meta’s Robyn package, with the objective of quantifying the impact of various marketing channels and informing optimized media budget allocation.
+
+The analysis uses [a synthetic dataset](https://github.com/eleafeit/ad_response_tutorial/tree/master/R%20code) originally developed by [**Professor Elea Feit**](https://www.lebow.drexel.edu/people/eleafeit) of Drexel University for educational purposes. Three CSV files form the foundation of this project:
+
+- customer.csv, which contains user profile information.
+
+- impressions.csv, detailing ad exposures and clicks by date and channel.
+
+- transactions.csv, which records the daily transactions made by users.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+options(scipen = 999)
+set.seed(123)
+library(dplyr)
+library(lubridate)
+library(data.table)
+library(tidyr)
+library(ggplot2)
+library(Robyn) 
+```
+
+### Data Import and Overview
+```{r load_datasets, echo=TRUE, eval=TRUE}
+customer <- fread("/Users/itsxuuu/Desktop/MMM/Data/customer.csv")
+impressions <- fread("/Users/itsxuuu/Desktop/MMM/Data/impressions.csv")
+transactions <- fread("/Users/itsxuuu/Desktop/MMM/Data/transactions.csv")
+```
+```{r cus, echo=TRUE, eval=TRUE}
+head(customer)
+```
+- `customer.csv`: Information about the users with some fields from their profiles. Each row in the file represents a customer, 10,000 rows; the columns describe some basic information about each customer including id number, whether the customer has made a purchase prior to the observation period, and whether the customer is eligible to receive emails or direct mails.
+
+```{r imp, echo=TRUE, eval=TRUE}
+head(impressions)
+```
+- `impressions.csv`: Information about which users are connected to other users. Each row is an exposure of marketing communication to a specific customer, 501,336 rows; the columns describe the information about the customer’s impression towards an advertisement including id number for the customer, date of impression, the channel of the ad exposure, and whether the customer clicked on the ad.
+
+```{r tran, echo=TRUE, eval=TRUE}
+head(transactions)
+```
+- `transactions.csv`: Information about history of the user's account registrations (logins) over time. Each row is a transaction made by a customer; columns record the basic information of a transaction including customer id, date of the transaction, channel of the last ad impression the customer saw before the transaction, and channel of the last ad the customer clicked before the transaction.
+
+<br>
+
+## Part II: Data Aggregation and Preparation
+Aggregation is a critical step in preparing the data for Marketing Mix Modeling (MMM) using Meta’s Robyn package. This process is necessary for the following reasons:
+
+- **Time-series requirement:** Robyn expects input data to be in a time-series format (daily, weekly, or monthly). Aggregating the data ensures each row represents a consistent time unit—typically one day in this case.
+
+- **Aligning sales with media activity:** Aggregation allows link daily sales outcomes with corresponding daily impressions and clicks across different marketing channels, creating a unified dataset suitable for modeling.
+
+- **Capturing zero-activity days:** By joining aggregated impressions and transactions, the merged dataset retains days with media exposure but no conversions (or vice versa), which is essential for maintaining data continuity and ensuring a complete view of marketing activity over time.
+```{r data_aggregation,echo=TRUE, eval=TRUE}
+daily_impressions <- impressions %>%
+  group_by(date, channel) %>%
+  summarise(
+    impressions = n(),
+    clicks = sum(click, na.rm = TRUE),
+    .groups = "drop") %>%
+  pivot_wider(
+    names_from = channel,
+    values_from = c(impressions, clicks),
+    values_fill = 0)
+
+daily_sales <- transactions %>%
+  group_by(date) %>%
+  summarise(sales = n(), .groups = "drop")
+
+daily_data <- full_join(daily_sales, daily_impressions, by = "date") %>%
+  arrange(date) %>%
+  replace(is.na(.), 0)
+daily_data$date <- as.Date(daily_data$date, format = "%m/%d/%Y")
+daily_impressions$date <- as.Date(daily_impressions$date, format = "%m/%d/%Y")
+daily_sales$date <- as.Date(daily_sales$date, format = "%m/%d/%Y")
+```
+
+### Hyperparameter Tuning
+This section defines the **hyperparameter search space for each media channel**, allowing Robyn to explore a wide range of possible adstock and saturation dynamics. 
+
+Hyperparameters are essential in Robyn because they guide the model in capturing **how advertising effects decay over time (adstock)** and **how returns diminish as impressions increase (saturation)**. Without appropriate hyperparameter tuning, the model might underfit or overfit, leading to misleading conclusions. 
+
+By setting realistic bounds for each channel’s parameters, the optimization process becomes both statistically sound and reflective of expected media behavior—ultimately improving the accuracy and interpretability of the final model.
+```{r hyperparameters_definition,echo=TRUE, eval=TRUE}
+hyperparameters <- list(
+  impressions_direct_alphas = c(0.5, 3),
+  impressions_direct_gammas = c(0.3, 1.0),
+  impressions_direct_thetas = c(0, 0.3),
+
+  impressions_display_alphas = c(0.5, 3),
+  impressions_display_gammas = c(0.3, 1.0),
+  impressions_display_thetas = c(0, 0.3),
+
+  impressions_email_alphas = c(0.5, 3),
+  impressions_email_gammas = c(0.3, 1.0),
+  impressions_email_thetas = c(0, 0.3),
+
+  impressions_social_alphas = c(0.5, 3),
+  impressions_social_gammas = c(0.3, 1.0),
+  impressions_social_thetas = c(0, 0.3)
+)
+```
+For each media channel (impressions_direct, impressions_display, impressions_email, impressions_social), it specifies ranges for three key hyperparameters:
+
+- **alpha:** controls saturation, which is how quickly media impact diminishes as spend increases. Higher values allow for slower saturation. `c(0.5, 3)` allows the model to test both low and high saturation.
+
+- **gamma:** shapes the response curve, controlling how steeply response increases with input. `c(0.3, 1.0)` captures the true response dynamics of each channel without forcing overly aggressive or flat curves.
+
+- **theta:** controls the adstock decay, which is how long the impact of media lasts over time. A higher theta = longer carryover effect. `c(0, 0.3)` allows no carryover to up to ~30% of the media effect to carry into the next period, especially for short-duration digital media.
+
+
+### Create InputCollect Object
+To initiate the modeling process, the `InputCollect` object is constructed using the `robyn_inputs()` function. This object serves as the foundational configuration for the Robyn model, consolidating the cleaned and aggregated dataset (daily_data), variable mappings (e.g., date, dependent variable, and media channels), modeling timeframe, adstock function, and predefined hyperparameter ranges.
+```{r hyperparameters_addition,echo=TRUE, eval=TRUE}
+InputCollect <- robyn_inputs(
+  dt_input = daily_data,
+  date_var = "date",
+  dep_var = "sales",
+  dep_var_type = "conversion",
+  paid_media_vars = c("impressions_display", "impressions_social", "impressions_email", "impressions_direct"),
+  paid_media_spends = c("impressions_display", "impressions_social", "impressions_email", "impressions_direct"),
+  window_start = min(daily_data$date),
+  window_end = max(daily_data$date),
+  adstock = "geometric",
+  hyperparameters = hyperparameters
+)
+```
+
+### Model Training with Automated Search
+Robyn’s `robyn_run()` function is a critical step in the modeling process, as it initiates the automated search for optimal model configurations based on the defined hyperparameter space. 
+
+This function leverages **Nevergrad’s evolutionary optimization** to generate and evaluate hundreds of model candidates across a multi-dimensional space of adstock rates, saturation curves, and channel effects. Each model is scored using **various diagnostic metrics** (e.g., R-squared, NRMSE, MAPE) to identify those that offer the best balance between fit and generalizability.
+
+Due to GPU limitations, the modeling process is executed with conservative settings: 100 iterations, 200 trials, and a single core. While this limited the total number of models explored, it is sufficient to yield **a diverse set of high-performing candidates**, enabling meaningful decomposition of media contributions and ROI estimation. This automated model selection process ensures objectivity, consistency, and transparency in determining which media strategies are most effective.
+```{r model_run,echo=TRUE, results='hide'}
+OutputModels <- robyn_run(
+  InputCollect = InputCollect,
+  hyperparameters = hyperparameters,  
+  iterations = 100,
+  trials = 200,
+  cores = 1
+)
+```
+
+<br>
+
+## Part III: Model Evaluation and Interpretation
+### Extract and Filter Final Model Candidates
+The input objects OutputModels and InputCollect contain all the candidate models generated during the `robyn_run()` step and the preprocessed data and parameters. The parameters `pareto_fronts = 3` and `min_candidates = 10` tell Robyn to retain the top-performing models from **up to three Pareto fronts**, ensuring a balance between performance and model complexity, while limiting the output to at least ten candidate models. 
+```{r model_output,echo=TRUE, eval=TRUE,results='hide'}
+OutputCollect <- robyn_outputs(
+  OutputModels = OutputModels,
+  InputCollect = InputCollect,
+  export = FALSE,
+  pareto_fronts = 3,       
+  min_candidates = 10      
+)
+```
+
+```{r ls,echo=TRUE, eval=TRUE}
+ls(OutputCollect)          
+```
+The `OutputCollect` object contains all essential results from the Robyn modeling process, including **top-performing models, channel-level contributions, hyperparameter settings, and diagnostics**. Key components like `xDecompAgg` and `xDecompVecCollect` allow for detailed interpretation of media effectiveness over time, while performance metrics and calibration details support model validation. This structured output enables data-driven decision-making and transparent marketing optimization.
+
+### Top Model Summary
+During the `robyn_run()` phase, Robyn creates hundreds of candidate models using randomized combinations of hyperparameters (e.g., adstock decay, saturation levels). However, not all models are equally good — some may overfit, underfit, or have unstable decompositions so it's improtant to identify the best-performing Marketing Mix Models (MMMs) from all the candidates Robyn has generated during the training process.
+
+The top model (`solID = 151_96_1`) has the best fit, explaining **~69.7% of sales variation** (`rsq_train = 0.697`) with **low prediction error** (`nrmse_train = 0.10`).
+```{r top_model_,echo=TRUE, eval=TRUE}
+top_models <- OutputCollect$xDecompAgg %>%
+  filter(rn == "(Intercept)") %>%
+  select(solID, rsq_train, nrmse_train, decomp.rssd, mape) %>%
+  arrange(desc(rsq_train))  
+knitr::kable(head(top_models), caption = "Top Candidate Models by R-squared")
+```
+
+### Best Model Decomposition
+After identifying the top-performing model based on R-squared and other evaluation metrics, contribution of each media channel is further examined using the selected model. The following analysis breaks down the **total sales impact attributed to each channel**, providing insight into their relative effectiveness and cost-efficiency. This forms the basis for ROI evaluation and future budget optimization.
+```{r best_model,echo=TRUE, eval=TRUE}
+best_model <- "151_96_1"   
+
+model_contrib <- OutputCollect$xDecompAgg %>%
+  filter(solID == best_model, rn != "(Intercept)") %>%
+  select(
+    channel = rn,
+    coef,
+    xDecompAgg,
+    xDecompPerc,
+    spend_share,
+    effect_share)
+
+knitr::kable(model_contrib, caption = "Channel-Level Contributions")
+
+```
+The table resents the channel-level decomposition of the best model (`solID = 151_96_1`), showing:
+
+- **impressions_display:** Spend Share = 44.0%, Effect Share = 64.4%. Display is the most effective channel — contributing the most to sales relative to its share of impressions. This implies high ROI.
+
+- **impressions_social:** Spend Share = 46.2%, Effect Share = 16.5%. Social ads received the most impressions but contributed relatively little to conversions — possibly inefficient or oversaturated.
+
+- **impressions_email:** Spend Share = 7.8%, Effect Share = 13.3%. Email performed relatively well. Its small impression share shows it's very efficient and likely underinvested.
+
+- **impressions_direct:** Spend Share = 2.0%, Effect Share = 5.8%. Direct impressions contributed some value despite a small share, suggesting opportunity for scaling with caution.
+
+### Channel-Level Contribution Analysis
+```{r lib, echo=TRUE, include=FALSE}
+library(tidyr)
+library(ggplot2)
+library(dplyr)
+library(scales)
+```
+
+```{r ROI, echo=TRUE, eval=TRUE}
+model_contrib %>%
+  mutate(roi = xDecompAgg / (spend_share * sum(xDecompAgg))) %>%
+  select(channel, roi) %>%
+  knitr::kable(caption = "Estimated ROI per Channel")
+```
+To evaluate the cost-effectiveness of each marketing channel, Return on Investment (ROI) is calculated by dividing each channel's total contribution `xDecompAgg` by its share of total media spend. This metric provides a normalized view of how efficiently each channel converts media spend into sales. 
+
+Following this, a **time-series decomposition plot** is generated to visualize daily contributions of each media channel over the campaign period. The `xDecompVecCollect` object is reshaped into long format using `pivot_longer()`, enabling the use of `ggplot2` to create a stacked area chart. 
+```{r plot, echo=TRUE, eval=TRUE}
+selected_vec <- OutputCollect$xDecompVecCollect %>%
+  select(-dep_var, -depVarHat, -solID, -cluster, -top_sol)
+
+selected_vec_long <- pivot_longer(
+  selected_vec,
+  cols = -ds,
+  names_to = "channel",
+  values_to = "contribution"
+)
+
+blue_palette <- scales::hue_pal()(length(unique(selected_vec_long$channel)))
+names(blue_palette) <- unique(selected_vec_long$channel)
+
+blue_palette <- c(
+  "#0A4C6A",
+  "#1B6CA8", 
+  "#3B9DD5", 
+  "#A4C8E1",  
+  "#C9D9EC",  
+  "#7BAFD4" 
+)[1:length(unique(selected_vec_long$channel))]
+
+ggplot(selected_vec_long, aes(x = ds, y = contribution, fill = channel)) +
+  geom_area(position = "stack", alpha = 0.9) +
+  scale_fill_manual(values = blue_palette) +
+  labs(
+    title = "Time-Series Channel Contributions",
+    x = "Date", y = "Sales Contribution", fill = "Channel"
+  ) +
+  theme_minimal(base_size = 13)
+```
+
+This visualization helps illustrate how different channels drove sales over time and whether their impact was consistent or episodic. Together, these analyses offer both macro-level efficiency insights and micro-level temporal patterns, informing smarter budget allocation and campaign planning.
+
+**Interpretation:**
+
+- Display advertising yielded approximately **1.46 units of sales per unit of media spend**, indicating moderate efficiency.
+
+- Social media advertising demonstrated **the lowest efficiency**, generating only **0.36 units of sales per unit of spend**, suggesting potential overinvestment or suboptimal performance.
+
+- Email emerged as a **highly efficient channel**, delivering substantial sales impact relative to its relatively low share of total spend—indicating it may be underleveraged.
+
+- **Direct impressions were the most efficient**, producing nearly three times the return in sales impact per unit of spend, signaling a strong opportunity for increased investment.
+
+### Robustness Check
+To validate the reliability of the modeling insights, the top three performing models (ranked by R-squared and predictive accuracy) are selected for comparative analysis. By examining the **channel-level contributions** across these top models, the goal is to determine whether key findings (such as the dominance of display advertising or the high efficiency of direct impressions) remain consistent regardless of specific model variations.
+
+This cross-model comparison helps ensure that conclusions are not overly dependent on a single model’s parameters or random initialization. If the relative contribution patterns and ROI results are stable across the best-performing models, it strengthens confidence in the robustness of the insights and supports more confident media allocation recommendations.
+```{r comparison, echo=TRUE, eval=TRUE}
+
+top_ids <- top_models$solID[1:3]  
+
+multi_model_contrib <- OutputCollect$xDecompAgg %>%
+  filter(solID %in% top_ids, rn != "(Intercept)") %>%
+  select(solID, channel = rn, xDecompAgg, xDecompPerc, spend_share, effect_share)
+
+knitr::kable(multi_model_contrib, caption = "Channel Contributions Across Top Models")
+```
+**Interpretation:**
+
+- Display ads consistently dominate, with the highest absolute and percent contributions (xDecompAgg and xDecompPerc) across all three models — and roughly aligned spend share (~44%). This suggests a well-justified investment.
+
+- Social ads also have a stable spend share (≈~6%) but deliver a much smaller effect share (≈16%), indicating lower efficiency and potential overspend.
+
+- Email consistently overperforms relative to its small spend share (~7.8%), delivering 12–17% of total effect, suggesting it's an underutilized high-ROI channel.
+
+- Direct impressions, while minimal in spend (~2%), contribute around 5% of the total media effect, reinforcing their high efficiency.
+
+The results show **a high level of consistency**, with display advertising emerging as the strongest contributor to sales, justifying its significant investment. Social media, however, accounts for the largest share of impressions but contributes relatively little to outcomes, suggesting overspending or inefficiency. Email and direct impressions consistently deliver high impact relative to their spend, making them strong candidates for increased investment. The alignment of findings across multiple top-performing models reinforces the robustness of these insights and supports confident, data-driven media optimization decisions.
+
+<br>
+
+## Part IV: Conclusion 
+This **Marketing Mix Modeling (MMM)** analysis, powered by **Meta’s Robyn** package, provided a robust framework to quantify and visualize the contribution of various paid media channels to overall conversions. 
+
+### Model Performance
+
+The best-performing candidate explained approximately **69.7% of the variance** in daily sales with relatively **low prediction error**, indicating a strong and reliable fit. 
+
+- **Top Performing Channels**
+
+  -  **Display advertising** and **email campaigns** were the most impactful drivers of revenue.
+
+  - **Direct impressions** delivered the **highest ROI (2.86)** — showing exceptional efficiency despite their small share of total spend.
+
+- **Underperforming Channel**
+
+  - **Social media**, while receiving the highest share of impressions, showed significantly lower efficiency, with an ROI of just 0.36 — suggesting a key opportunity for budget optimization or reallocation.
+
+### Strategic Recommendations
+
+Based on the model’s decomposition and ROI analysis, it is evident that some marketing channels are significantly more cost-effective than others. To **improve overall return on investment (ROI)**, it is recommended to **reallocate budget away from underperforming channels**, particularly social media impressions, which demonstrated a low ROI of only 0.36 despite receiving a high share of spend.
+
+In contrast, **email marketing and direct impressions** showed strong cost-efficiency and high impact relative to their budget allocation. Email achieved an ROI of 1.70 with a modest spend share, suggesting that it is currently underutilized. Direct impressions were the most efficient, yielding an ROI close to 3.0—making it a prime candidate for increased investment.
+
+These following changes aim to optimize budget allocation, increase marketing efficiency, and ultimately drive higher incremental sales without increasing total spend.
+
+- **Reduce spend on social media impressions** until ROI improves or targeting and creative strategies are refined.
+
+- **Scale up investment in email campaigns**, especially automated or personalized outreach, which may yield even higher efficiency.
+
+- **Expand direct marketing efforts**, potentially through retargeting, push notifications, or CRM-driven outreach, to capitalize on its superior cost-effectiveness.
+
+- **A/B test new creatives or audience segments** within high-ROI channels to maximize marginal gains.
+
+### Limitations and Further Research
+While this analysis provides a strong foundation for understanding media channel effectiveness using Meta's Robyn, there are several opportunities to enhance model accuracy and strategic applicability:
+
+- **Seasonality Patterns:** The current model does not account for recurring trends such as day-of-week, month, or seasonal fluctuations. Incorporating seasonality would help distinguish organic sales cycles from media-driven impacts, leading to more precise attribution.
+
+- **External Variables:** Key external factors such as macroeconomic indicators, competitor activities, weather events, or public holidays were not included in this iteration. These variables can influence consumer behavior independently of media spend and should be integrated to improve explanatory power and realism.
+
+- **Scenario Simulations for Predictive Planning:** The analysis is currently retrospective. By leveraging Robyn’s response curves and media saturation functions, future work can simulate “what-if” scenarios—such as reallocating budget across channels—to forecast potential outcomes and support forward-looking decision-making.
+
+- **Computational Limitations:** Due to hardware constraints on a personal laptop, the model was trained with a reduced number of iterations (100), trials (200), and a single CPU core. These constraints limited the depth of the hyperparameter search and the total number of candidate models explored. Running the model on a cloud platform or high-performance machine could unlock more robust optimization and broader model discovery.
+
+
+## Part V: Comparison with True Parameters
+### True Channel Effects (from Synthetic Data Generation)
+The dataset was generated using specific conversion uplift rules per channel exposure. Below are the known true parameters:
+```{r true_para, echo=TRUE, eval=TRUE}
+true_effects <- data.frame(
+  Channel = c("Display", "Social", "Email", "Direct"),
+  Conversion_Uplift = c("+0.01 (same day)",
+                        "+0.02 (same), +0.01 (next)",
+                        "+0.05 (same), +0.03 (next), +0.01", 
+                        "+0.03 (same), +0.05, +0.05, +0.05, +0.03, +0.02, +0.01"),
+  Carryover_Days = c(1, 2, 3, 7)
+)
+
+knitr::kable(true_effects, caption = "True Conversion Uplift and Carryover by Channel")
+```
+### Estimated Effects from Robyn (ROI-based Comparison)
+```{r compare, echo=TRUE, eval=TRUE}
+model_contrib %>%
+  mutate(ROI = round(xDecompAgg / (spend_share * sum(xDecompAgg)), 2)) %>%
+  select(Channel = channel, Effect_Share = effect_share, Spend_Share = spend_share, ROI) %>%
+  knitr::kable(caption = "Estimated Effectiveness and ROI by Channel (Robyn Output)")
+```
+
+**Interpretation and Evaluation**
+
+`Robyn` successfully recovered the relative effectiveness of each marketing channel compared to their true impact.
+
+- Direct impressions were the most efficient (highest ROI ~2.86), matching the strong carryover effect (7 days) and cumulative uplift in the true data.
+
+- Email marketing showed strong cost-efficiency (ROI ~1.70), consistent with its 3-day carryover and high per-exposure uplift.
+
+- Display ads, while the weakest in true uplift (+0.01), contributed most due to higher spend, which Robyn correctly captured (effect share ~64%).
+
+- Social media was flagged as inefficient (ROI ~0.36), aligning with its modest true impact and short carryover (2 days).
+
+This validates Robyn's ability to decompose media impact accurately and make reliable recommendations for budget optimization, even with synthetic data. Overall, this comparison demonstrates the robustness and accuracy of Meta Robyn in uncovering true marketing effectiveness patterns. The alignment between estimated and true parameters underscores Robyn’s value as a practical tool for guiding real-world media budget decisions.
+
