@@ -37,12 +37,11 @@ I'm a **Data Analytics and Marketing Science** professional with 1+ year of hand
 ## Education
 - M.S. in Integrated Marketing Communications, Northwestern University, Dec 2025 (Expected)
 - B.A. in Film and Media Studies, Minor in Computer Science, Washington University in St.Louis, May 2024
-- High School Diploma, Nanjing Foreign Language School, May 2020
 
 ## Career Interests
-- Business Intelligence & Data Analytics
 - Marketing Analytics, Marketing Mix Modeling, and MarTech
-- Digital & Product Marketing
+- Digital Marketing & Paid Media
+- Business Intelligence & Data Analytics
 
 <br><br>
 
