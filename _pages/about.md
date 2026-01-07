@@ -29,13 +29,13 @@ redirect_from:
 
 
 # 👋 About Me
-Hi, I'm Sheryl Xu, a Master of Science candidate in **Integrated Marketing Communications at Northwestern University**,and I hold a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
+Hi, I'm Sheryl Xu. I hold a Master of Science degree in Integrated Marketing Communications from Northwestern University, and a Bachelor’s in Film and Media Studies from Washington University in St. Louis.  
 
-I'm a **Data Analytics and Marketing Science** professional with 1+ year of hands-on experience in SQL, Python, R, Tableau, and Excel for large-scale data analysis. Skilled in marketing mix modeling, segmentation, predictive forecasting, and A/B testing. Proven ability in translating data into strategic insights—identifying key audience segments, analyzing sales performance, and optimizing content and media strategies. Passionate about transforming complex data into actionable recommendations that drive brand growth and scalable decision-making.
+I'm a **Digital Marketing and Data Science** professional with hands-on experience in paid media, affiliate marketing, and MarTech. I'm proficient in SQL, Excel, R, and Tableaufor large-scale data analysis. I'm passionate about transforming complex data into actionable insights recommendations that drive brand growth and scalable decision-making.
 
 
 ## Education
-- M.S. in Integrated Marketing Communications, Northwestern University, Dec 2025 (Expected)
+- M.S. in Integrated Marketing Communications, Northwestern University, Dec 2025
 - B.A. in Film and Media Studies, Minor in Computer Science, Washington University in St.Louis, May 2024
 
 ## Career Interests
@@ -47,13 +47,11 @@ I'm a **Data Analytics and Marketing Science** professional with 1+ year of hand
 
 
 
-# 💼 Internships
-- *2025.07 - PRESENT*, Marketing & Strategy Associate @ AlphaX Media Group
-- *2025.01 - PRESENT*, Operations & Marketing Analyst @ WeJob HR Solutions
-- *2025.06 - 2025.08*, Graduate Marketing Analyst  @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
-- *2025.02 - 2025.05*, Marketing Analyst @ [Creative Capitol](https://creativecapitol.org/)
+# 💼 Work Experiences
+- *2025.06 - 2025.08*, Graduate Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
+- *2025.02 - 2025.05*, Marketing Consultant @ [Creative Capitol](https://creativecapitol.org/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
-- *2023.06 - 2023.08*, Marketing Insights & Analyst Intern  @ [ShopShops](https://www.shopshopslive.com)
+- *2023.06 - 2023.08*, Marketing Intern  @ [ShopShops](https://www.shopshopslive.com)
 - *2021.05 - 2021.07*, Strategy and Analytics Intern @ [BlueFocus](https://en.bluefocus.com/)
 - *2020.05 - 2020.07*, Marketing Intern @ [WE Marketing Group](https://www.we-mkt.com/)
 
