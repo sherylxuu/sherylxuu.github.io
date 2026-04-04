@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#-about-me"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Work Experiences"
+    url: "/#-work-experiences"
 
   - title: "Technical Skills"
     url: "/#-technical-skills"
