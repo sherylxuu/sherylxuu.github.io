@@ -48,7 +48,7 @@ I'm a **Digital Marketing and Data Science** professional with hands-on experien
 
 
 # 💼 Work Experiences
-- *2025.03 - PRESENT, Marketing Analyst @ [Match Group](https://mtch.com)
+- *2025.03 - PRESENT*, Marketing Analyst @ [Match Group](https://mtch.com)
 - *2025.06 - 2025.08*, Marketing Analyst Intern @ [Lincoln Financial](https://www.lincolnfinancial.com/public/individuals)
 - *2025.02 - 2025.05*, Marketing Analyst Intern @ [Creative Capitol](https://creativecapitol.org/)
 - *2022.08 - 2024.05*, Assistant Research Analyst @ Washington University in St. Louis under [Prof. Zhao Ma](https://sites.wustl.edu/zhaoma/)
