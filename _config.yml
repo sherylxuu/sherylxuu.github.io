@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Sheryl Xu"
-description              : "Marketing and Data Analyst"
+description              : "Marketing Analyst @ Match Group"
 repository               : "sherylxuu/sherylxuu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/formal.JPG"
   url              : https://sherylxuu.github.io
   bio              : "MS @ Northwestern <br> BA @ WashU in St.Louis"
-  location         : "Chicago, Illinois"
+  location         : "Los Angeles, California"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
